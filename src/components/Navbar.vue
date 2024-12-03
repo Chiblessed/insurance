@@ -13,7 +13,7 @@
       </button>
 
       <ul
-        :class="['absolute -right-10 py-20 text-center gap-10 rounded-l-lg font-mainFont bg-red-500 w-[20rem] text-white transition-all duration-300 ease-in-out', 
+        :class="['absolute -right-10 py-20 text-center gap-10 rounded-l-lg font-mainFont bg-primary border-2 border-solid border-primaryDark w-[20rem] text-white transition-all duration-300 ease-in-out', 
                   isMenuOpen ? 'block' : 'hidden']"
         @click="toggleMenu"
       >
@@ -56,5 +56,4 @@ const toggleMenu = () => {
 </script>
 
 <style lang="" scoped>
-/* You can keep this empty or use it for any additional styles */
 </style>
